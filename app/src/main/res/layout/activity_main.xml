@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp"
+    app:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/dialingLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editDial"
+            style="@android:style/Widget.DeviceDefault.EditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/dial_text"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout123"
+        style="@android:style/Holo.Light.ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dip">
+
+        <Button
+            android:id="@+id/buttonOne"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:longClickable="true"
+            android:onClick="one"
+            android:text="@string/one_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonTwo"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="two"
+            android:text="@string/two_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonThree"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="three"
+            android:text="@string/three_button"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout456"
+        style="@android:style/Holo.Light.ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dip">
+
+        <Button
+            android:id="@+id/buttonFour"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="four"
+            android:text="@string/four_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonFive"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="five"
+            android:text="@string/five_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonSix"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="six"
+            android:text="@string/six_button"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout789"
+        style="@android:style/Holo.Light.ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dip">
+
+        <Button
+            android:id="@+id/buttonSeven"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="seven"
+            android:text="@string/seven_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonEight"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="eight"
+            android:text="@string/eight_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonNine"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="nine"
+            android:text="@string/nine_button"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutBelow"
+        style="@android:style/Holo.Light.ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip">
+
+        <Button
+            android:id="@+id/buttonAst"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="ast"
+            android:text="@string/asterisc_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonZero"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="zero"
+            android:text="@string/zero_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonHash"
+            style="@android:style/Holo.Light.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="hash"
+            android:text="@string/cardinal_button"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dialerLayout"
+        style="@android:style/Holo.ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp">
+
+        <Button
+            android:id="@+id/buttonCall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#8BC34A"
+            android:onClick="onDial"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="@string/call_button"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ED1111"
+            android:fadingEdge="vertical"
+            android:onClick="onDelete"
+            android:text="@string/delete_button"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="#F30A0A"
+            android:textColorLink="#E10D0D"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

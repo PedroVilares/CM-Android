@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingStart="25dip"
+    android:paddingEnd="25dip"
+    tools:context=".LongPress">
+
+    <EditText
+        android:id="@+id/longPressLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nome_do_contacto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/longPressNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/numero_do_contacto"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/longSaveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onLong"
+        android:text="@string/guardar_contacto_botao" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dialer</string>
+    <string name="Dialer">Dialer</string>
+    <string name="one_button">1</string>
+    <string name="two_button">2</string>
+    <string name="three_button">3</string>
+    <string name="four_button">4</string>
+    <string name="five_button">5</string>
+    <string name="six_button">6</string>
+    <string name="seven_button">7</string>
+    <string name="eight_button">8</string>
+    <string name="nine_button">9</string>
+    <string name="asterisc_button">*</string>
+    <string name="zero_button">0</string>
+    <string name="cardinal_button">#</string>
+    <string name="call_button">Call</string>
+    <string name="dial_text">Insira um número</string>
+    <string name="delete_button">Delete</string>
+    <string name="second_activity">Speed Dial</string>
+    <string name="nome_do_contacto">Nome do Contacto</string>
+    <string name="numero_do_contacto">Número</string>
+    <string name="guardar_contacto_botao">Guardar</string>
+</resources>
