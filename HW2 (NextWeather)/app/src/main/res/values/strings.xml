@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+
+    <string-array name="citiesArray">
+        <item>Aveiro</item>
+        <item>Beja</item>
+        <item>Braga</item>
+        <item>Bragança</item>
+        <item>Castelo Branco</item>
+        <item>Coimbra</item>
+        <item>Évora</item>
+        <item>Faro</item>
+        <item>Guarda</item>
+        <item>Leiria</item>
+        <item>Lisboa</item>
+        <item>Portalegre</item>
+        <item>Porto</item>
+        <item>Santarém</item>
+        <item>Setúbal</item>
+        <item>Viana do Castelo</item>
+        <item>Vila Real</item>
+        <item>Viseu</item>
+        <item>Madrid</item>
+    </string-array>
+
+    <string name="cityFragment">Cidade</string>
+    <string name="weatherFragment">Metereologia</string>
+    <string name="wind">Vento:</string>
+    <string name="rain">Probabilidade \n de chuva:</string>
+    <string name="max">Máxima:</string>
+    <string name="min">Mínima:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
